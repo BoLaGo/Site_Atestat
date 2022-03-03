@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: url('../img/pexels-kai-pilger-1341279.jpg') center center;
+  scroll-behavior: smooth;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+.btn {
+  text-decoration: none;
+  color: sandybrown;
+  font-weight: bolder;
+  padding: 0.75rem;
+  margin: 0rem 2rem;
+}
+
+.btn:hover {
+  background: #fff;
+  border-radius: 1.5rem;
+  transition: ease-in-out 0.5s;
+}
+
+#instructiuni {
+  color: sandybrown;
+  /* text-decoration: underline; */
+  margin: 4rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#butoane .butoane ul{
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  font-size: 2rem;
+  list-style: none;
+}
+
+#butoane .butoane ul a {
+  color:sandybrown;
+}
+
+
+#navbar {
+  padding: 2rem;
+  margin: 0rem 5rem;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(51, 51, 51, 0.616);
+  border-radius: 5rem;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+#navbar ul li {
+  margin: 0rem 1rem;
+  font-size: 2rem;
+}
+
+#despre, #istorie, #reprezentare {
+  display: flex;
+  color: #fff;
+  height: 75vh;
+  align-items: center;
+  border-radius: 10rem;
+  padding: 2rem;
+  line-height: 3rem;
+}
+
+#despre .titlu, #istorie .titlu, #reprezentare .titlu {
+  text-align: center;
+  font-size: 2rem;
+
+}
+
+#despre .titlu img, #istorie .titlu img, #reprezentare .titlu img {
+  width: 350px;
+  margin: 5rem;
+}
+
+
+#despre .continut p, #istorie .continut p, #reprezentare .continut p {
+  font-size: 1.6rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+#despre:hover, #istorie:hover, #reprezentare:hover {
+  background:rgba(51, 51, 51, 0.411);
+  transition: ease 0.5s;
+}
+
+#break-1, #break-2, #break-3 {
+  margin: 1rem;
+  margin-top: 6rem;
+  color: sandybrown;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
